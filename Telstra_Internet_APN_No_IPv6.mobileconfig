@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Telstra Internet APN with IPv6 turned off</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>Name</key>
+				<string>telstra.internet</string>
+				<key>AuthenticationType</key>
+				<string>CHAP</string>
+				<key>Username</key>
+				<string></string>
+				<key>Password</key>
+				<string></string>
+			</dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>telstra.internet</string>
+					<key>AuthenticationType</key>
+					<string>CHAP</string>
+					<key>Username</key>
+					<string></string>
+					<key>Password</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Telstra Internet APN with IPv6 turned off</string>
+			<key>PayloadIdentifier</key>
+			<string>com.aseinet.cellular</string>
+			<key>PayloadOrganization</key>
+			<string>ASEINet.NE.JP</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>6B08253E-D5BB-4FC4-A5CD-825FB965B5AA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Telstra.internet APN without IPv6</string>
+	<key>PayloadDescription</key>
+	<string>Apply APN-setting to your iOS device. </string>
+	<key>PayloadIdentifier</key>
+	<string>com.aseinet</string>
+	<key>PayloadOrganization</key>
+	<string>ASEINet.NE.JP</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>560EB0FF-BE89-46C7-8DC9-6CA77E1A4453</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
